@@ -2281,3 +2281,18 @@ button,
   height: 400px; /* Set a uniform height */
   object-fit: cover; /* Ensure the image covers the area without distortion */
 }
+
+.resume-link {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 5px;
+    color: #e63946; /* Stylish red */
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.resume-link:hover {
+    color: #d62828;
+}
+
